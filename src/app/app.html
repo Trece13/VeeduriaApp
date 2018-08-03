@@ -1,0 +1,48 @@
+<ion-menu [content]="content">
+    <ion-content>
+        <ion-list>
+
+            <ion-item>
+                <button ion-button icon-start clear small>
+                    <ion-icon name="paper" (click)="hola()"></ion-icon>
+                    <div>Noticias</div>
+                </button>
+            </ion-item>
+            <ion-item>
+                <button ion-button icon-start clear small>
+                    <ion-icon name="md-list"></ion-icon>
+                    <div>Proyectos</div>
+                </button>
+            </ion-item>
+            <ion-item>
+                <button ion-button icon-start clear small>
+                    <ion-icon name="logo-twitch"></ion-icon>
+                    <div>Mis denuncias</div>
+                </button>
+            </ion-item>
+            <ion-item>
+                <button ion-button icon-start clear small>
+                    <ion-icon name="notifications"></ion-icon>
+                    <div>Notificaciones</div>
+                </button>
+            </ion-item>
+            <div footer>
+                <ion-item>
+                    <button ion-button icon-start clear small>
+                    <ion-icon name="contact"></ion-icon>
+                    <div>Mi Cuenta</div>
+                </button>
+                </ion-item>
+                <ion-item>
+                    <button ion-button icon-start clear small>
+                    <ion-icon name="home"></ion-icon>
+                    <div>Mis Localidades</div>
+                </button>
+                </ion-item>
+            </div>
+        </ion-list>
+    </ion-content>
+</ion-menu>
+
+
+<ion-nav [root]="rootPage" #content></ion-nav>
