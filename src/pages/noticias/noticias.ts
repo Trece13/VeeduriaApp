@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { NoticiaPage } from './../noticia/noticia';
+import { NotificacionesPage } from '../notificaciones/notificaciones';
+
 /**
  * Generated class for the NoticiasPage page.
  *
@@ -58,5 +60,9 @@ export class NoticiasPage {
 
   verMas(item){
     this.navCtrl.push(NoticiaPage,{item:item});
+  }
+  verNotificaciones(){
+    console.log('att');
+    this.navCtrl.push(NotificacionesPage);
   }
 }

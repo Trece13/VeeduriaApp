@@ -58,7 +58,7 @@
             <ion-card-title>
                 {{item.nombre}}
             </ion-card-title>
-            <p>{{item.objetivosEspecificos.uno}}</p>
+            <p>{{item.descripcion}}</p>
         </ion-card-content>
 
         <ion-row>
@@ -69,7 +69,7 @@
                     </button>
             </ion-col>
             <ion-col>
-                <button ion-button icon-start clear small>
+                <button ion-button icon-start clear small  (click)="denunciar(item)">
                       <ion-icon name="text"></ion-icon>
                       <div> Denunciar</div>
                  </button>

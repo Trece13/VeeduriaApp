@@ -12,9 +12,13 @@ import { TabsPage } from '../pages/tabs/tabs';
 
 import { NoticiaPage } from '../pages/noticia/noticia';
 import { ProyectoPage } from './../pages/proyecto/proyecto';
+import { DenunciarPage } from '../pages/denunciar/denunciar';
+import { NotificacionesPage } from '../pages/notificaciones/notificaciones';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+
+
 
 @NgModule({
   declarations: [
@@ -24,6 +28,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     DenunciasPage,
     TabsPage,
     NoticiaPage,
+    DenunciarPage,
+    NotificacionesPage,
     ProyectoPage
   ],
   imports: [
@@ -38,6 +44,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     DenunciasPage,
     TabsPage,
     NoticiaPage,
+    DenunciarPage,
+    NotificacionesPage,
     ProyectoPage
   ],
   providers: [
