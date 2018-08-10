@@ -14,6 +14,8 @@ import { NoticiaPage } from '../pages/noticia/noticia';
 import { ProyectoPage } from './../pages/proyecto/proyecto';
 import { DenunciarPage } from '../pages/denunciar/denunciar';
 import { NotificacionesPage } from '../pages/notificaciones/notificaciones';
+import { PerfilPage } from './../pages/perfil/perfil';
+import { LocalidadesPage } from '../pages/localidades/localidades';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -30,7 +32,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     NoticiaPage,
     DenunciarPage,
     NotificacionesPage,
-    ProyectoPage
+    ProyectoPage,
+    PerfilPage,LocalidadesPage
   ],
   imports: [
     BrowserModule,
@@ -46,7 +49,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     NoticiaPage,
     DenunciarPage,
     NotificacionesPage,
-    ProyectoPage
+    ProyectoPage,
+    PerfilPage,
+    LocalidadesPage
   ],
   providers: [
     StatusBar,
